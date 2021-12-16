@@ -1,3 +1,6 @@
+from  functools import lru_cache
+
+@lru_cache(maxsize = None)
 def fibonacci(n):
     if n == 0:
         return 0
@@ -9,5 +12,5 @@ def fibonacci(n):
 
 
 if __name__ == '__main__':
-    for i in range(1,10):
+    for i in range(1,30):
         print( i, fibonacci(i))
