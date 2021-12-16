@@ -1,0 +1,27 @@
+
+git init # creates a .git dir in cwd
+
+git add <file> # ->Staging area
+
+git commit # ->History (includes message)
+
+
+Branches: a named pointer to a commit
+- Default branch: main
+- Tag: Fixed named pointer to a commit
+
+git config --global user.name
+git config --global user.email
+
+git show # shows the diff from last commit
+git log # show all commits
+
+git diff # diff btw cwd and stage
+git diff --staged # diff btw stage and last commit
+git diff <arg1> <arg2> # in general
+
+
+git mv  #like mv stages automatically 
+git rm  # like rm, stages automatically 
+
+git reset <file> Removes changes/files from the staging area
