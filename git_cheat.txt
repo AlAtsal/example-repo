@@ -25,3 +25,21 @@ git mv  #like mv stages automatically
 git rm  # like rm, stages automatically 
 
 git reset <file> Removes changes/files from the staging area
+
+git log # show auth info, data, hash , message
+
+git log <a>..<b> # Range btwn hashes
+
+git log --oneline # more concise view
+
+git log --all --decorate --graph # show branches in "ASCII art"
+
+git shortlog [-sne] # Show no of cmmits per author
+
+git checkout <commit> # load a certain commit from the history
+
+git restore <file> # Restore a file to the v. from last commit (discarding changes)
+
+git restore --source=<source> <file> # Restore file from a specific commit or branch
+
+
